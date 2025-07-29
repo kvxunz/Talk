@@ -3,7 +3,7 @@
 echo "Starting restart process..."
 
 # 切换到项目目录
-cd /root/talk-0.1.0
+cd /root/Talk
 
 # 重新构建项目
 echo "Rebuilding project..."

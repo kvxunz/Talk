@@ -9,68 +9,68 @@ importers:
   .:
     dependencies:
       '@google-cloud/text-to-speech':
-        specifier: ^5.0.1
+        specifier: ^5.6.0
         version: 5.6.0
       '@tanstack/react-query':
-        specifier: ^5.0.0
+        specifier: ^5.62.7
         version: 5.62.7(react@18.3.1)
       '@types/node':
-        specifier: ^20.0.0
+        specifier: ^20.17.10
         version: 20.17.10
       '@types/react':
-        specifier: ^18.0.0
+        specifier: ^18.3.16
         version: 18.3.16
       '@types/react-dom':
-        specifier: ^18.0.0
+        specifier: ^18.3.5
         version: 18.3.5(@types/react@18.3.16)
       autoprefixer:
-        specifier: ^10.0.0
+        specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.49)
       axios:
-        specifier: ^1.0.0
+        specifier: ^1.7.9
         version: 1.7.9
       cors:
         specifier: ^2.8.5
         version: 2.8.5
       dayjs:
-        specifier: ^1.11.0
+        specifier: ^1.11.13
         version: 1.11.13
       dexie:
-        specifier: ^3.2.4
+        specifier: ^3.2.7
         version: 3.2.7
       express:
-        specifier: ^4.18.2
+        specifier: ^4.21.2
         version: 4.21.2
       postcss:
-        specifier: ^8.0.0
+        specifier: ^8.4.49
         version: 8.4.49
       react:
-        specifier: ^18.2.0
+        specifier: ^18.3.1
         version: 18.3.1
       react-dom:
-        specifier: ^18.2.0
+        specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
       tailwindcss:
-        specifier: ^3.4.0
+        specifier: ^3.4.16
         version: 3.4.16(ts-node@10.9.2(@types/node@20.17.10)(typescript@5.7.2))
       typescript:
-        specifier: ^5.0.0
+        specifier: ^5.7.2
         version: 5.7.2
       zustand:
-        specifier: ^4.0.0
+        specifier: ^4.5.5
         version: 4.5.5(@types/react@18.3.16)(react@18.3.1)
     devDependencies:
       '@types/express':
         specifier: ^5.0.0
         version: 5.0.0
       '@vitejs/plugin-react':
-        specifier: ^4.0.0
+        specifier: ^4.3.4
         version: 4.3.4(vite@5.4.11(@types/node@20.17.10))
       postcss-import:
         specifier: ^15.1.0
         version: 15.1.0(postcss@8.4.49)
       vite:
-        specifier: ^5.0.0
+        specifier: ^5.4.11
         version: 5.4.11(@types/node@20.17.10)
 
 packages:
@@ -336,6 +336,9 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.0':
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
 
+  '@jridgewell/sourcemap-codec@1.5.4':
+    resolution: {integrity: sha512-VT2+G1VQs/9oz078bLrYbecdZKs912zQlkelYpuf+SXF+QvZDYJlbx/LSx+meSAwdDFnF8FVXW92AVjjkVmgFw==}
+
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
@@ -599,8 +602,8 @@ packages:
     resolution: {integrity: sha512-ueEepnujpqee2o5aIYnvHU6C0A42MNdsIDeqy5BydrkuC5R1ZuUFnm27EeFJGoEHJQgn3uleRvmTXaJgfXbt4g==}
     engines: {node: '>=0.4.0'}
 
-  acorn@8.14.0:
-    resolution: {integrity: sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==}
+  acorn@8.15.0:
+    resolution: {integrity: sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -709,8 +712,8 @@ packages:
     resolution: {integrity: sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==}
     engines: {node: '>= 6'}
 
-  caniuse-lite@1.0.30001688:
-    resolution: {integrity: sha512-Nmqpru91cuABu/DTCXbM2NSRHzM2uVHfPnhJ/1zEAJx/ILBRVmz3pzH4N7DZqbdG0gWClsCC05Oj0mJ/1AWMbA==}
+  caniuse-lite@1.0.30001731:
+    resolution: {integrity: sha512-lDdp2/wrOmTRWuoB5DpfNkC0rJDU8DqRa6nYL6HK6sytw70QMopt/NIc/9SM7ylItlBWfACXk0tEn37UWM/+mg==}
 
   chokidar@3.6.0:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
@@ -1899,6 +1902,9 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.0': {}
 
+  '@jridgewell/sourcemap-codec@1.5.4':
+    optional: true
+
   '@jridgewell/trace-mapping@0.3.25':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
@@ -1907,7 +1913,7 @@ snapshots:
   '@jridgewell/trace-mapping@0.3.9':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
-      '@jridgewell/sourcemap-codec': 1.5.0
+      '@jridgewell/sourcemap-codec': 1.5.4
     optional: true
 
   '@js-sdsl/ordered-map@4.4.2': {}
@@ -2143,10 +2149,10 @@ snapshots:
 
   acorn-walk@8.3.4:
     dependencies:
-      acorn: 8.14.0
+      acorn: 8.15.0
     optional: true
 
-  acorn@8.14.0:
+  acorn@8.15.0:
     optional: true
 
   agent-base@6.0.2:
@@ -2186,7 +2192,7 @@ snapshots:
   autoprefixer@10.4.20(postcss@8.4.49):
     dependencies:
       browserslist: 4.24.2
-      caniuse-lite: 1.0.30001688
+      caniuse-lite: 1.0.30001731
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.1.1
@@ -2236,7 +2242,7 @@ snapshots:
 
   browserslist@4.24.2:
     dependencies:
-      caniuse-lite: 1.0.30001688
+      caniuse-lite: 1.0.30001731
       electron-to-chromium: 1.5.73
       node-releases: 2.0.19
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
@@ -2264,7 +2270,7 @@ snapshots:
 
   camelcase-css@2.0.1: {}
 
-  caniuse-lite@1.0.30001688: {}
+  caniuse-lite@1.0.30001731: {}
 
   chokidar@3.6.0:
     dependencies:
@@ -3185,7 +3191,7 @@ snapshots:
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
       '@types/node': 20.17.10
-      acorn: 8.14.0
+      acorn: 8.15.0
       acorn-walk: 8.3.4
       arg: 4.1.3
       create-require: 1.1.1
