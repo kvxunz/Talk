@@ -1,8 +1,13 @@
-const express = require('express');
-const { TextToSpeechClient } = require('@google-cloud/text-to-speech');
-const cors = require('cors');
-const path = require('path');
-const fs = require('fs');
+import express from 'express';
+import { TextToSpeechClient } from '@google-cloud/text-to-speech';
+import cors from 'cors';
+import path from 'path';
+import fs from 'fs';
+import { fileURLToPath } from 'url';
+
+// ES模块中获取__dirname
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // 加载API密钥配置
 let apiKeys = null;
