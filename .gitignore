@@ -72,6 +72,9 @@ Thumbs.db
 # Local development
 .eslintcache
 
+# Claude Code local settings
+.claude/
+
 # Keep example files
 !*.example.json
 !*.example.*
