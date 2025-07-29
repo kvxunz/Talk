@@ -132,7 +132,7 @@ export default function App() {
     <div className="min-h-screen p-8 dark:bg-gray-900">
       <div className="max-w-4xl mx-auto">
         <div className="flex items-center justify-between mb-8">
-          <h1 className="text-2xl font-bold dark:text-white">IELTS TALK</h1>
+          <h1 className="text-2xl font-bold dark:text-white">TALK</h1>
           
           {/* 下拉菜单按钮 */}
           <div className="relative" ref={menuRef}>
