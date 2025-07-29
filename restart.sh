@@ -36,8 +36,24 @@ sleep 2
 # 检查服务器是否成功启动
 if lsof -i:3000 > /dev/null; then
     echo "Server successfully restarted!"
-    echo "You can now access the application at https://y.xvliote.top"
 else
     echo "Server failed to start!"
     exit 1
 fi
+
+# 启动 Nginx（如果未运行）
+echo "Checking Nginx status..."
+if ! systemctl is-active --quiet nginx; then
+    echo "Starting Nginx service..."
+    systemctl start nginx
+    if systemctl is-active --quiet nginx; then
+        echo "Nginx service started successfully!"
+    else
+        echo "Failed to start Nginx service!"
+        exit 1
+    fi
+else
+    echo "Nginx service is already running"
+fi
+
+echo "You can now access the application at https://y.xvliote.top"
